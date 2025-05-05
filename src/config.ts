@@ -5,7 +5,7 @@ export const SITE = {
   desc: "AI MINDSETS book landing page",
   title: "AI MINDSETS",
   amazonURL: "https://amzn.to/430tfbE",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "ai-mindset-og.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,

@@ -37,7 +37,11 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         AI Mindsets is a practical and forward-looking guide for professionals, entrepreneurs, and executives who want to lead with confidence in an AI-driven world. 
         It's not about becoming a tech expert. It's about thinking differently, asking smarter questions, and making better decisions.
       </p>
-
+      <div slot="cta" class="mt-6">
+        <ExternalLink href={ amazonURL } class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg inline-block transition-colors">
+          Buy the Book
+        </ExternalLink>
+      </div>
     <TextImageSection
       title="31 Actionable Mindsets"
       description="With 31 actionable mindsets, this book helps you understand the attitudes, skills, and habits needed to thrive—whether you're launching AI initiatives, managing transformation, or simply trying to keep up."
