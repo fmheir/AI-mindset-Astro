@@ -4,6 +4,7 @@ export const SITE = {
   profile: "https://www.linkedin.com/in/fmheir/",
   desc: "AI MINDSETS book landing page",
   title: "AI MINDSETS",
+  amazonURL: "https://amzn.to/430tfbE",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,

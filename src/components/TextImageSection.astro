@@ -1,0 +1,42 @@
+---
+// TextImageSection.astro
+// Props interface to allow customization of the component
+interface Props {
+  title: string;
+  description: string;
+  imgSrc: string;
+  imgAlt: string;
+  reversed?: boolean;
+}
+
+// Destructure the props with default values
+const { 
+  title, 
+  description, 
+  imgSrc, 
+  imgAlt,
+  reversed = false 
+} = Astro.props;
+---
+
+<section class="py-12 md:py-20">
+  <div class="container mx-auto px-4">
+    <div class={`flex flex-col ${reversed ? 'md:flex-row-reverse' : 'md:flex-row'} items-center gap-8 md:gap-12`}>
+      <!-- Text Content -->
+      <div class="w-full md:w-1/2 space-y-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900">{title}</h2>
+        <p class="text-lg text-gray-700">{description}</p>
+        <slot name="cta" />
+      </div>
+      
+      <!-- Image -->
+      <div class="w-full md:w-1/2">
+        <img 
+          src={imgSrc} 
+          alt={imgAlt} 
+          class="w-full h-auto rounded-lg shadow-md object-cover"
+        />
+      </div>
+    </div>
+  </div>
+</section>
