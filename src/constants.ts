@@ -38,6 +38,12 @@ export const SOCIALS = [
 ] as const;
 
 export const SHARE_LINKS = [
+  {
+    name: "X",
+    href: "https://x.com/intent/post?url=",
+    linkTitle: `Share this post on X`,
+    icon: IconBrandX,
+  },
 /*  {
     name: "WhatsApp",
     href: "https://wa.me/?text=",
@@ -50,13 +56,7 @@ export const SHARE_LINKS = [
     linkTitle: `Share this post on Facebook`,
     icon: IconFacebook,
   },
-  {
-    name: "X",
-    href: "https://x.com/intent/post?url=",
-    linkTitle: `Share this post on X`,
-    icon: IconBrandX,
-  },
-  {
+   {
     name: "Telegram",
     href: "https://t.me/share/url?url=",
     linkTitle: `Share this post via Telegram`,
