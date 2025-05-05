@@ -1,9 +1,9 @@
 export const SITE = {
   website: "https://ai-mindsets.com/", // replace this with your deployed domain
   author: "Farid Mheir",
-  profile: "",
+  profile: "https://www.linkedin.com/in/fmheir/",
   desc: "AI MINDSETS book landing page",
-  title: "AI MINDSETS book",
+  title: "AI MINDSETS",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,

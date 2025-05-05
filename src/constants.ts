@@ -9,6 +9,7 @@ import IconPinterest from "@/assets/icons/IconPinterest.svg";
 import { SITE } from "@/config";
 
 export const SOCIALS = [
+/*
   {
     name: "Github",
     href: "https://github.com/satnaing/astro-paper",
@@ -21,22 +22,23 @@ export const SOCIALS = [
     linkTitle: `${SITE.title} on X`,
     icon: IconBrandX,
   },
+*/
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/username/",
+    href: "https://www.linkedin.com/in/fmheir/",
     linkTitle: `${SITE.title} on LinkedIn`,
     icon: IconLinkedin,
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:AImindsets@fmcs.digital",
     linkTitle: `Send an email to ${SITE.title}`,
     icon: IconMail,
   },
 ] as const;
 
 export const SHARE_LINKS = [
-  {
+/*  {
     name: "WhatsApp",
     href: "https://wa.me/?text=",
     linkTitle: `Share this post via WhatsApp`,
@@ -72,4 +74,5 @@ export const SHARE_LINKS = [
     linkTitle: `Share this post via email`,
     icon: IconMail,
   },
+*/
 ] as const;
