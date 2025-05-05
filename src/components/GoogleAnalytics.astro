@@ -1,0 +1,13 @@
+---
+// src/components/GoogleAnalytics.astro
+const GA_ID = 'G-EX34CYDKWM';
+---
+
+<!-- Google Analytics -->
+<script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-EX34CYDKWM"></script>
+<script type="text/partytown">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-EX34CYDKWM');
+</script>
